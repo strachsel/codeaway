@@ -6,7 +6,7 @@ const ProvidePlugin = webpack.ProvidePlugin;
 module.exports = {
     entry: ['bootstrap-loader', path.resolve(__dirname, './app/app.js')],
     output: {
-        path: path.resolve(__dirname, '../codeaway-server/server/public'),
+        path: path.resolve(__dirname, '../codeaway-server/public'),
         filename: "bundle.js",
         // publicPath: 'public/'
     },
