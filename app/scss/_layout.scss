@@ -7,9 +7,13 @@
 }
 /* Base
    ----------------------------- */
+* {
+    font-family: 'Cabin', sans-serif;
+}
 html,
 body,
 .viewport {
+  filter: grayscale(50%);
     font-family: 'Cabin', sans-serif;
     width: 100%;
     height: 100%;
@@ -24,7 +28,6 @@ body,
 .main-container {
     padding: 1em;
 }
-
 a {
     text-decoration: none;
     color: #FF3D2E;
