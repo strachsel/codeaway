@@ -1,0 +1,38 @@
+$background: #f1eff0;
+$maintext: #272F32;
+
+$accentBdr1: 1px solid rgba(96, 144, 135, 1);
+$accentBdr2: 1px solid rgba(167, 218, 205, 1);
+$accentBdr3: 1px solid rgba(116, 165, 155, 1);
+$accentBdr4: 1px solid rgba(196, 194, 195, 1);
+$accentBdr5: 1px solid rgba(159, 156, 158, 1);
+$accentBdr6: 1px solid rgba(178, 179, 179, 1);
+$accentBdr7: 1px solid rgba(132, 131, 131, 1);
+$accentBdr8: 1px solid rgba(98, 95, 95, 1);
+
+$accent1: rgba(96, 144, 135, 1);
+$accent2: rgba(167, 218, 205, 1);
+$accent3: rgba(116, 165, 155, 1);
+$accent4: rgba(196, 194, 195, 1);
+$accent5: rgba(159, 156, 158, 1);
+$accent6: rgba(178, 179, 179, 1);
+$accent7: rgba(132, 131, 131, 1);
+$accent8: rgba(98, 95, 95, 1);
+$accent9: rgb(159,140,90);
+
+$accentOp1: rgba(96, 144, 135, .2);
+$accentOp2: rgba(167, 218, 205, .2);
+$accentOp3: rgba(116, 165, 155, .2);
+$accentOp4: rgba(196, 194, 195, .2);
+$accentOp5: rgba(159, 156, 158, .2);
+$accentOp6: rgba(178, 179, 179, .2);
+$accentOp7: rgba(132, 131, 131, .2);
+$accentOp8: rgba(98, 95, 95, .2);
+
+$accentScOp: #FF3D2E;
+.accent {
+    color: $accent1;
+}
+.accent2 {
+    text-transform: capitalize;
+}

@@ -1,0 +1,18 @@
+.header {
+    margin: 0 auto;
+}
+.banner-header {
+    text-align: center;
+    font-weight: 600;
+    padding-top: 2rem;
+    color: $maintext;
+    letter-spacing: 0.2rem;
+}
+.banner-graphic {
+  width: 100%;
+}
+.banner-img {
+  // background-image: url('');
+  background-size: cover;
+  background-repeat: no-repeat;
+}

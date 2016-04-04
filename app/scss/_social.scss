@@ -1,0 +1,24 @@
+.social-logo > path {
+        &:hover {
+          fill: $accentScOp;
+        }
+        &:active {
+          fill: $accentScOp;
+        }
+}
+.social-link {
+    display: inline;
+    width: 20%;
+    height: 20%;
+    margin: 1rem;
+}
+.social {
+    margin: 5rem auto;
+}
+.social-graphic {
+  width: 90vw;
+}
+.social-logo {
+  height: 10%;
+  width: 10%;
+}

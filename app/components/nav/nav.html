@@ -1,0 +1,32 @@
+<nav class="navbar navbar-default navbar-fixed-bottom">
+    <div class="navbar">
+        <ul class="nav navbar-nav nav-item">
+            <li ng-class="{'nav-accent': !mainActive}" ng-click="dropProf('profile')">
+                <a class="nav-click">
+                    <span class="glyphicon glyphicon-user"></span>
+                </a>
+            </li>
+            <li ng-class="{'nav-accent': projActive}" ng-click="dropProj('projects')">
+                <a class="nav-click">
+                    <span class="glyphicon glyphicon-th-large"></span>
+                </a>
+            </li>
+            <li ng-class="{'nav-accent': aboutActive}" ng-click="dropAb('about')">
+                <a class="nav-click">
+                    <span class="glyphicon glyphicon-info-sign"></span>
+                </a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav arrow">
+            <li ng-click="selectNext(false, true)">
+                <a class="nav-click">
+                    <span class="glyphicon glyphicon-arrow-left"></span>
+                </a>
+            </li>
+            <li ng-click="selectNext(true, false)">
+                <a class="nav-click">
+                    <span class="glyphicon glyphicon-arrow-right"></span>
+                </a>
+            </li>
+        </ul>
+</nav>

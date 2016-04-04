@@ -1,0 +1,51 @@
+.nav {
+    list-style: none;
+    height: 1rem;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.arrow {
+  float: left;
+}
+.nav-item {
+  float: right;
+}
+.nav li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+.nav li a {
+    display: inline-block;
+    text-decoration: none;
+}
+.navbar-default {
+    background-color: $background;
+    text-transform: uppercase;
+    border-color: $maintext;
+}
+.navbar .navbar-nav {
+    vertical-align: top;
+    margin-bottom: 0;
+    .nav-accent1 {
+        border-bottom: $accentBdr4;
+        &:hover {
+            @include prefix(transition, 500ms ease);
+            background-color: $accentOp1;
+        }
+    }
+    .nav-accent2 {
+        border-bottom: $accentBdr5;
+        &:hover {
+            @include prefix(transition, 500ms ease);
+            background-color: $accentOp1;
+        }
+    }
+    .nav-accent3 {
+        border-bottom: $accentBdr8;
+        &:hover {
+            @include prefix(transition, 500ms ease);
+            background-color: $accentOp1;
+        }
+    }
+}
