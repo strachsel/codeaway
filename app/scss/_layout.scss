@@ -30,14 +30,14 @@ body,
 }
 a {
     text-decoration: none;
-    color: #FF3D2E;
+    color: $maintext;
 }
-a:hover {
-    text-decoration: none;
-    color: $accent8;
-    cursor: pointer;
-    cursor: hand;
-}
+// a:hover {
+//     text-decoration: none;
+//     color: $accent8;
+//     cursor: pointer;
+//     cursor: hand;
+// }
 .giant-font {
     margin: 0;
     padding: 1rem;

@@ -1,3 +1,23 @@
+.n-top ul {
+  background-color: $white;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0 20px 0;
+  border-bottom: 3px solid rgba(39,47,50, .1);
+}
+
+.nav-top li {
+  padding: 10px;
+  list-style: none;
+  display: inline;
+  font-size: 1em;
+  max-width: 60%;
+  margin: 0 auto;
+  width: 90%;
+  text-transform: uppercase;
+  font-size: 0.5em;
+}
+
 .header {
     margin: 0 auto;
     max-width: 100%;
@@ -12,7 +32,7 @@
 
 .logo {
   display: block;
-  max-width: 50%;
+  max-width: 60%;
   margin: 0 auto;
   width: 90%;
   padding-top: 180px;
@@ -46,7 +66,7 @@
 .banner-img {
     height: 70vh;
     width: 100vw;
-    background-image: url('../components/main/coast.jpg');
+    background-image: url('../components/main/forest.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
