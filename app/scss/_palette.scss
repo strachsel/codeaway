@@ -36,13 +36,16 @@ $accentScOp: #FF3D2E;
 .accent2 {
     text-transform: capitalize;
 }
-@mixin grayscale_element($value) {
+.inverse-text {
+  color: $background;
+}
+@mixin filter($value) {
     @include prefix(filter, #{"grayscale(#{$value})"});
 }
 .grayscale {
-    @include grayscale_element(100%);
+    @include filter(100%);
     transition: all 200ms ease-in-out;
     &:hover {
-        @include grayscale_element(0);
+        @include filter(0);
     }
 }

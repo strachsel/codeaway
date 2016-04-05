@@ -8,11 +8,36 @@
     color: $maintext;
     letter-spacing: 0.2rem;
 }
-.banner-graphic {
-  width: 100%;
-}
+/* PUT SOME COOL ASS PHOTO BELOW GUYZ
+ * TODO NOTE KTHNX BAI
+ * Instagram  / CSSgram filter classes are:
+
+"_1977"
+"aden"
+"brooklyn"
+"clarendon"
+"earlybird"
+"gingham"
+"hudson"
+"inkwell"
+"lark"
+"lofi"
+"mayfair"
+"moon"
+"nashville"
+"perpetua"
+"reyes"
+"rise"
+"slumber"
+"toaster"
+"walden"
+"willow"
+"xpro2"
+*/
 .banner-img {
-  // background-image: url('');
-  background-size: cover;
-  background-repeat: no-repeat;
+    height: 60vh;
+    width: 100vw;
+    background-image: url('http://bossfight.co/wp-content/uploads/2016/03/boss-fight-free-high-quality-stock-images-photos-photography-glasses-cup-macbook-air-notebook-960x638.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }

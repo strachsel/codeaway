@@ -13,6 +13,7 @@
  * _.scss -> import here main.scss -> import in app.js -> webpack bundle.
  *
  ---------------------------------------------------------------------- */
+@import '_cssgram.min.scss';
 @import '_palette';
 @import '_header';
 @import '_dropdown';
@@ -21,6 +22,7 @@
 @import '_nav';
 @import '_social';
 @import '_flextab';
+
 
 @import url(https://fonts.googleapis.com/css?family=Cabin);
 @font-face {
