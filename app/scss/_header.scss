@@ -1,5 +1,6 @@
 .header {
     margin: 0 auto;
+    max-width: 100%;
 }
 .banner-header {
     text-align: center;
@@ -7,6 +8,14 @@
     padding-top: 2rem;
     color: $maintext;
     letter-spacing: 0.2rem;
+}
+
+.logo {
+  display: block;
+  max-width: 50%;
+  margin: 0 auto;
+  width: 90%;
+  padding-top: 180px;
 }
 /* PUT SOME COOL ASS PHOTO BELOW GUYZ
  * TODO NOTE KTHNX BAI
@@ -35,9 +44,16 @@
 "xpro2"
 */
 .banner-img {
-    height: 60vh;
+    height: 70vh;
     width: 100vw;
-    background-image: url('http://bossfight.co/wp-content/uploads/2016/03/boss-fight-free-high-quality-stock-images-photos-photography-glasses-cup-macbook-air-notebook-960x638.jpg');
+    background-image: url('../components/main/coast.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .banner-img {
+    height: 50vh;
+  }
 }
